@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import ReactDOM from "react-dom";
 import TextareaAutosize from "react-textarea-autosize";
 import ClipboardIcon from "react-clipboard-icon";
 
@@ -36,9 +35,21 @@ class Mocker extends React.Component {
     event.preventDefault();
   }
   mock(text) {
+    if (text.length < 2) {
+      return text;
+    }
     var output = [];
+    var map = [0, Math.round(Math.random())];
+
+    for (var i = 2; i < text.length; i++) {
+      map[i] = Math.round(Math.random());
+
+      if (map[i - 2] == map[i - 1] && map[i - 1] == map[i]) {
+        map[i] = 1 - map[i];
+      }
+    }
     for (var i = 0; i < text.length; i++) {
-      if (Math.random() > 0.5) {
+      if (map[i] == 1) {
         output[i] = text.charAt(i).toUpperCase();
       } else {
         output[i] = text.charAt(i).toLowerCase();
