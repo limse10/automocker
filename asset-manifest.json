@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/automocker/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/automocker/static/js/main.245c8595.chunk.js",
+    "main.js.map": "/automocker/static/js/main.245c8595.chunk.js.map",
+    "runtime-main.js": "/automocker/static/js/runtime-main.fdedc5ef.js",
+    "runtime-main.js.map": "/automocker/static/js/runtime-main.fdedc5ef.js.map",
+    "static/js/2.62a08ef7.chunk.js": "/automocker/static/js/2.62a08ef7.chunk.js",
+    "static/js/2.62a08ef7.chunk.js.map": "/automocker/static/js/2.62a08ef7.chunk.js.map",
+    "static/js/3.6630a4a1.chunk.js": "/automocker/static/js/3.6630a4a1.chunk.js",
+    "static/js/3.6630a4a1.chunk.js.map": "/automocker/static/js/3.6630a4a1.chunk.js.map",
+    "index.html": "/automocker/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/automocker/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.62a08ef7.chunk.js.LICENSE.txt": "/automocker/static/js/2.62a08ef7.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/automocker/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdedc5ef.js",
+    "static/js/2.62a08ef7.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.245c8595.chunk.js"
+  ]
+}
